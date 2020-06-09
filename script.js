@@ -1,10 +1,10 @@
 var generateBtn = document.getElementById("generate")
 
 //create array for each character type
-numArray = ["1", "2", "3"];
-specialArray = ["!", "@", "#"];
-lowerArray = ["a", "b", "c"];
-upperArray = ["A", "B", "C"];
+numArray = ["1", "2", "3", "4", "5", "6", "7","8","9","10","11","12","13","14","15","17","18","19","20", "21", "23", "24", "25", "26", "27", "28", "29", "30"];
+specialArray = ["!", "@", "#","&","?","/"];
+lowerArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+upperArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "O", 'P', "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 function getPasswordOptions() {
     var length = parseInt(prompt("how long?"));
